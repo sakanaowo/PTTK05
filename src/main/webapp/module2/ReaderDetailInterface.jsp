@@ -12,8 +12,8 @@
 <body>
     <div class="container">
         <header>
-            <h1>👤 Reader Loan Slip Details</h1>
-            <p>Chi tiết phiếu mượn của bạn đọc</p>
+            <h1>Reader Loan Slip Details</h1>
+            <p>Chi tiết các phiếu mượn của bạn đọc</p>
         </header>
 
         <div class="content">
@@ -112,9 +112,8 @@
         </div>
 
         <footer>
-            <p>&copy; 2024 LibMan System - Module 2</p>
+            <p>&copy; 2025 LibMan System</p>
         </footer>
     </div>
 </body>
 </html>
-

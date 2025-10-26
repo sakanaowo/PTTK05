@@ -71,7 +71,7 @@
         </div>
 
         <footer>
-            <p>&copy; 2024 LibMan System - Module 1</p>
+            <p>&copy; 2025 LibMan System</p>
         </footer>
     </div>
 </body>

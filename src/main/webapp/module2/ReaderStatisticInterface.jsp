@@ -12,7 +12,7 @@
 <body>
     <div class="container">
         <header>
-            <h1>📊 Reader Statistics by Loan Number</h1>
+            <h1>Reader Statistics by Loan Number</h1>
             <p>Thống kê bạn đọc theo số lần mượn sách</p>
         </header>
 
@@ -102,9 +102,8 @@
         </div>
 
         <footer>
-            <p>&copy; 2024 LibMan System - Module 2</p>
+            <p>&copy; 2025 LibMan System</p>
         </footer>
     </div>
 </body>
 </html>
-

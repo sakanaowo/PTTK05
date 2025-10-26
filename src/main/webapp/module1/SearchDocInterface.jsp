@@ -11,8 +11,8 @@
 <body>
     <div class="container">
         <header>
-            <h1>🔍 Search Document</h1>
-            <p>Tìm kiếm thông tin tài liệu</p>
+            <h1>Search Document</h1>
+            <p>Tìm kiếm tài liệu trong thư viện</p>
         </header>
 
         <div class="content">
@@ -91,9 +91,8 @@
         </div>
 
         <footer>
-            <p>&copy; 2024 LibMan System - Module 1</p>
+            <p>&copy; 2025 LibMan System</p>
         </footer>
     </div>
 </body>
 </html>
-

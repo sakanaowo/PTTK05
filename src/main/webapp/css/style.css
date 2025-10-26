@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: white;
     min-height: 100vh;
     padding: 20px;
     color: #333;
@@ -26,10 +26,11 @@ body {
 
 /* Header */
 header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
+    background: white;
+    color: #333;
     padding: 30px;
     text-align: center;
+    border-bottom: 3px solid #667eea;
 }
 
 header h1 {
@@ -282,7 +283,7 @@ header p {
     border-left: 4px solid #667eea;
 }
 
-.detail-card h2, .info-card h3 {
+.detail-card h2, .info-card h3, .detail-card h3 {
     color: #667eea;
     margin-bottom: 20px;
 }
@@ -293,6 +294,32 @@ header p {
 
 .info-card strong {
     color: #333;
+}
+
+/* Info Row - Two cards side by side */
+.info-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+/* Detail Row - Label and value */
+.detail-row {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    gap: 15px;
+    padding: 10px 0;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.detail-row:last-child {
+    border-bottom: none;
+}
+
+.detail-label {
+    font-weight: 600;
+    color: #555;
 }
 
 /* Status Badges */
@@ -387,6 +414,14 @@ footer {
         grid-template-columns: 1fr;
     }
 
+    .info-row {
+        grid-template-columns: 1fr;
+    }
+
+    .detail-row {
+        grid-template-columns: 1fr;
+    }
+
     .form-row {
         grid-template-columns: 1fr;
     }
@@ -408,4 +443,3 @@ footer {
         width: 100%;
     }
 }
-

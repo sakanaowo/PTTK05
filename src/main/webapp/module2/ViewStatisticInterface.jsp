@@ -10,7 +10,7 @@
 <body>
     <div class="container">
         <header>
-            <h1>📊 View Statistical Reports</h1>
+            <h1>View Statistical Reports</h1>
             <p>Chọn loại báo cáo thống kê</p>
         </header>
 
@@ -18,25 +18,11 @@
             <div class="menu-grid">
                 <!-- Reader Statistics by Loan Number -->
                 <div class="menu-card">
-                    <h3>👥 Thống kê bạn đọc</h3>
+                    <h3>Thống kê bạn đọc</h3>
                     <p>Xem thống kê bạn đọc theo số lần mượn sách</p>
                     <a href="${pageContext.request.contextPath}/viewReaderStatistic" class="btn btn-primary">
                         Xem thống kê
                     </a>
-                </div>
-
-                <!-- Document Statistics (Not implemented) -->
-                <div class="menu-card disabled">
-                    <h3>📚 Thống kê tài liệu</h3>
-                    <p>Xem thống kê tài liệu theo số lần mượn</p>
-                    <button class="btn btn-secondary" disabled>Chưa triển khai</button>
-                </div>
-
-                <!-- Supplier Statistics (Not implemented) -->
-                <div class="menu-card disabled">
-                    <h3>🏢 Thống kê nhà cung cấp</h3>
-                    <p>Xem thống kê nhà cung cấp</p>
-                    <button class="btn btn-secondary" disabled>Chưa triển khai</button>
                 </div>
             </div>
 
@@ -48,9 +34,8 @@
         </div>
 
         <footer>
-            <p>&copy; 2024 LibMan System - Module 2</p>
+            <p>&copy; 2025 LibMan System</p>
         </footer>
     </div>
 </body>
 </html>
-
